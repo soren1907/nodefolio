@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "name": "nodefolio",
+  "version": "0.0.1",
+  "description": "this is a personal portfolio written in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "personal",
+    "webiste",
+    "portfolio",
+    "contact",
+    "kea"
+  ],
+  "author": "SR",
+  "license": "MIT"
+}

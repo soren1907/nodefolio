@@ -1,0 +1,53 @@
+<div>
+    <p>Email</p>
+    <p>Phone number</p>
+    <p>Social media widgets</p>
+</div>
+<br><br>
+
+<form onsubmit="sendFormData()" id="contactForm">
+    <label> Name </label>
+    <input id="name" name="name" placeholder="Name">
+
+    <label> Email </label>
+    <input id="email" type="email" name="email" placeholder="Email">
+
+    <label> Subject </label>
+    <input id="subject" name="subject" placeholder="Subject">
+
+    <label> Message </label>
+    <textarea id="message" name="message" placeholder="message" rows="15" cols="50"></textarea>
+
+    <button type="submit"> contact me! </button>
+</form>
+
+<script>
+
+    //get fromdata
+    // send it with fetch.. create your own post
+
+    function sendFormData(){
+
+        const contactForm = document.getElementById("contactForm");
+        const formData = new FormData(contactForm);
+        const formObj = {} 
+        formData.forEach((value, key) => formObj[key] = value); 
+
+        fetch("/api/contact", {
+            headers: {
+                "Content-Type": "application/json",
+            },
+            method: "POST",
+            body: JSON.stringify(formObj)
+        }).then(res => {
+            console.log(res);
+            //show a message sent, success
+            //todo 
+        }).catch(error => {
+            console.log("error: " + error);
+            //Show the error
+            //todo
+        });
+    }
+
+</script>
