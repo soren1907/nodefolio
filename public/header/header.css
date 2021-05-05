@@ -1,11 +1,50 @@
 #nav-logo {
-    width: 60px;
+    width: 50px;
+}
+
+#page-title {
+    float: left;
+    margin: 10px auto;
 }
 
 #nav-right-menu{
     float: right;
+    margin: 10px auto;
+}
+
+#nav-bar{
+    background-color: #333337;
+    padding: 10px 25px;
+    height: 50px;
+}
+
+#nav-bar a {
+    font-family: "Gill Sans", sans-serif;
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#nav-bar a:hover {
+    color: mediumaquamarine;
 }
 
 #main-content {
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 130px);
+    padding: 5px 30px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#main-content h2{
+    text-align: center;
+}
+
+#main-content h1{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: #F6F0E9;
 }

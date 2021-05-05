@@ -1,4 +1,11 @@
 #footer-copyright {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    padding: 10px 10px;
+    border-top: double;
+    margin: auto 10px;
 }

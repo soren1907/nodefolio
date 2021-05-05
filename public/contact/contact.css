@@ -1,0 +1,21 @@
+ .leftpane {
+    width: 25%;
+    float: left;
+    background-color: rgb(196, 195, 192);
+    border: 2px solid lightslategrey;
+    padding: 0px 10px;
+    margin: 20px 20px;  
+}
+  
+.rightpane {
+    margin: 20px 10%;
+    width: 50%;
+    float: left
+}
+
+.mainItem label {
+    width: 20%;
+    display: inline-block;
+    line-height: 2.1;
+}
+
