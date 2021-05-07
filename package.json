@@ -10,6 +10,7 @@
   "description": "this is a personal portfolio written in Node.js",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,5 +21,9 @@
     "kea"
   ],
   "author": "SR",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "14.15.3"
+  }
+
 }
