@@ -1,13 +1,12 @@
 const express = require("express");
-const fetch = require('node-fetch');
 const fs = require("fs");
 const app = express();
 
 app.use(express.static("public"));
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+// app.use(express.urlencoded({extended: true}));
 
-//Importing js files?
+//Importing js files
 const projectsRouter = require("./routes/projects.js");
 const contactRouter = require("./routes/contact.js");
 
@@ -15,7 +14,7 @@ const contactRouter = require("./routes/contact.js");
 app.use(contactRouter.router); 
 app.use(projectsRouter.router); 
 
-//components
+//components (footer and header)
 const footer = fs.readFileSync(__dirname + "/public/footer/footer.html", "utf-8");
 const header = fs.readFileSync(__dirname + "/public/header/header.html", "utf-8");
 
@@ -58,7 +57,7 @@ const server = app.listen(process.env.PORT || 8080, (error) => {
         console.log(error);
     }
     console.log("server is running on port" + server.address().port);
-})
+});
 
 
 

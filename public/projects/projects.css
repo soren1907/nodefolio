@@ -12,3 +12,7 @@
     display: table;
     clear: both;
 }
+
+#projects h2 {
+    color: rgb(30, 144, 64);
+}

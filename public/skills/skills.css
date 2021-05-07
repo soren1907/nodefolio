@@ -1,0 +1,35 @@
+#grid {
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-row: auto;
+    justify-content: center;
+    margin: 0px 25% 0px 0px;
+
+}
+  
+.item {
+    background-color: #F6F0E9;
+    margin: 10px 25px;
+    padding: 5px 25px;
+    border-bottom: 2px solid rgb(66, 77, 64);
+
+    
+}
+
+.language-img {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    float: right;
+}
+
+.item p {
+    float: left;
+    text-align: left; 
+    font-size: 20px;
+}
+
+/* body {
+    font-size: ;
+} */

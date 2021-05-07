@@ -7,7 +7,7 @@ projects = [
         class: "node.js",
         startDate: new Date("2021-04-07"),
         endDate: new Date("2021-05-09"),
-        gitLink: "github.link",
+        gitLink: "https://github.com/soren1907/nodefolio",
         languages: ["Javascript", "HTML", "CSS", "JSON"]
     },
     {
@@ -16,7 +16,7 @@ projects = [
         class: "node.js",
         startDate: new Date("2021-02-25"),
         endDate: new Date("2021-03-24"),
-        gitLink: "github.link",
+        gitLink: "https://github.com/soren1907/nodejs_documentation",
         languages: ["Javascript", "HTML", "CSS", "JSON"]
     },
     {
@@ -24,8 +24,8 @@ projects = [
         description: "Webapp made for the exam with node js",
         class: "node.js",
         startDate: new Date("2021-05-07"),
-        endDate: new Date("2021-06-15"),
-        gitLink: "Not available yet",
+        endDate: new Date("2021-06-02"),
+        gitLink: "(coming soon)",
         languages: ["Javascript", "HTML", "CSS", "JSON", "DB-languge (not decided)"]
     }
 ]

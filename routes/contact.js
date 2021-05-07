@@ -24,11 +24,11 @@ async function sendContactMail(name, email, subject, message) {
     });
   
     let info = await transporter.sendMail({
-        from: email, // sender address
+        from: email, 
         to: process.env.MAIL, 
-        subject: subject, // Subject line
-        text: message, // plain text body
-        html: message, // html body
+        subject: subject,
+        text: message,
+        html: message,
     });
 }
 

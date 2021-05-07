@@ -1,0 +1,28 @@
+.educations {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.education-column {
+    float:left;
+    width: 45%;
+    padding: 10px 10px;
+    background-color: rgb(226, 222, 220);
+    border: 3px solid #F6F0E9;
+    text-align: center;
+}
+
+.educations:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.education-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid black;
+}
